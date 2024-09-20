@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "phobot",
+  "version": "${version}",
+  "name": "Phobot",
+  "description": "A crystal PvP bot",
+  "authors": [
+    "3arthqu4ke"
+  ],
+  "contact": {
+    "homepage": "https://github.com/3arthqu4ke/phobot",
+    "sources": "https://github.com/3arthqu4ke/phobot"
+  },
+  "license": "MIT",
+  "icon": "assets/phobot/pack.png",
+  "environment": "*",
+  "mixins": [
+    "mixins.pingbypass.json",
+    "mixins.pingbypass_client.json",
+    "mixins.phobot.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": ">=1.20 <=1.20.4"
+  },
+  "jars": []
+}
